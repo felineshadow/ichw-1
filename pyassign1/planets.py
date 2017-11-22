@@ -12,6 +12,8 @@ import turtle
 import math
 wn = turtle.Screen()
 wn.screensize(9600,7200)
+turtle.hideturtle()
+turtle.bgcolor("black")
 
 
 def sun(t):
@@ -35,6 +37,7 @@ def solarsystem(t, Me, Ve, Ea, Ma, Ju, Sa, a_one, e_one,
     Me.hideturtle()
     Me.color("green")
     Me.shape("circle")
+    Me.shapesize(0.25, 0.25)
     Me.penup()
     Me.goto(a_one+a_one*e_one, 0)
     Me.showturtle()
@@ -42,6 +45,7 @@ def solarsystem(t, Me, Ve, Ea, Ma, Ju, Sa, a_one, e_one,
     Ve.hideturtle()
     Ve.color("brown")
     Ve.shape("circle")
+    Ve.shapesize(0.625, 0.625)
     Ve.penup()
     Ve.goto(-a_two+a_two*e_two, 0)
     Ve.showturtle()
@@ -49,6 +53,7 @@ def solarsystem(t, Me, Ve, Ea, Ma, Ju, Sa, a_one, e_one,
     Ea.hideturtle()
     Ea.color("blue")
     Ea.shape("circle")
+    Ea.shapesize(0.65, 0.65)
     Ea.penup()
     Ea.goto(a_thr+a_thr*e_thr, 0)
     Ea.showturtle()
@@ -56,6 +61,7 @@ def solarsystem(t, Me, Ve, Ea, Ma, Ju, Sa, a_one, e_one,
     Ma.hideturtle()
     Ma.color("red")
     Ma.shape("circle")
+    Ma.shapesize(0.35, 0.35)
     Ma.penup()
     Ma.goto(a_fo+a_fo*e_fo, 0)
     Ma.showturtle()
@@ -63,6 +69,7 @@ def solarsystem(t, Me, Ve, Ea, Ma, Ju, Sa, a_one, e_one,
     Ju.hideturtle()
     Ju.color("yellow")
     Ju.shape("circle")
+    Ve.shapesize(0.95, 0.95)
     Ju.penup()
     Ju.goto(a_fiv+a_fiv*e_fiv, 0)
     Ju.showturtle()
@@ -70,6 +77,7 @@ def solarsystem(t, Me, Ve, Ea, Ma, Ju, Sa, a_one, e_one,
     Sa.hideturtle()
     Sa.color("purple")
     Sa.shape("circle")
+    Ve.shapesize(0.85, 0.85)
     Sa.penup()
     Sa.goto(a_six+a_six*e_six, 0)
     Sa.showturtle()
