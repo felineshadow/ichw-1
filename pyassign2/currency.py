@@ -169,6 +169,14 @@ def test_iscurrency():
     assert(False == iscurrency(currency))
 
 
+def test_exchange():
+    """test function:exchange(currency_from, currency_to, amount_from)"""
+    currency_from = 'USD'
+    currency_to = 'EUR'
+    amount_from = 2.5
+    assert(exchange(currency_from, currency_to, amount_from) == 2.0952375)
+
+
 def testAll():
     """test all cases"""
     test_before_space()
@@ -177,4 +185,5 @@ def testAll():
     test_get_to()
     test_has_error()
     test_iscurrency()
+    test_exchange()
     print("All tests passed")
