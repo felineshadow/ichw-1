@@ -9,13 +9,13 @@ __email__  = "xiongjie1999@pku.edu.cn"
 
 
 import turtle
-    import math
-    wn = turtle.Screen()
-    wn.screensize(9600, 7200)
-    turtle.hideturtle()
-    turtle.bgcolor("black")
+import math
+wn = turtle.Screen()
+wn.screensize(9600, 7200)
+turtle.hideturtle()
+turtle.bgcolor("black")
 
-    
+
 def sun(t):
     """to draw the sun in the middle"""
     t.hideturtle()
