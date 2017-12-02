@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
-"""To change the exact amount of money of one kind to another.
+"""Module for currency exchange
+This module provides several string parsing functions to implement a
+simple currency exchange routine using an online currency service.
+The primary function in this module is exchange.
 
 __author__ = "XiongJie"
 __pkuid__  = "1700011827"
